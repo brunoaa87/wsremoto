@@ -1,0 +1,9 @@
+package br.com.lojaxpto.modelo;
+
+public class Cliente {
+	
+	private String nome;
+	private String email;
+	
+
+}

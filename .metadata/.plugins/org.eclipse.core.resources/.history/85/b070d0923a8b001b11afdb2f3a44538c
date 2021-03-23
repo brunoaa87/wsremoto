@@ -1,0 +1,15 @@
+package br.com.lojaxpto.modelo;
+
+public class PessoaFisica extends Cliente{
+	
+	private String cpf;
+	private String rg;
+	
+	
+	
+	
+	
+	
+	
+
+}

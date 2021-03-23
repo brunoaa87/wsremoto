@@ -1,0 +1,28 @@
+package br.com.lojaxpto.implementacao;
+
+public class TesteVenda {
+	
+	public static void main(String[] args) {
+		
+		Venda venda = new Venda (
+				
+				);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

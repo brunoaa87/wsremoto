@@ -1,0 +1,20 @@
+package br.com.lojaxpto.modelo;
+
+public class Produto {
+	
+	private int id;
+	private String descricao;
+	private new Fabricante());
+	private float valorVenda;
+	private float valorCompra;
+	private int qtde;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

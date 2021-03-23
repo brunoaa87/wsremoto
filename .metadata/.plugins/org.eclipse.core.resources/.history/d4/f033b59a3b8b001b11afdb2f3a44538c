@@ -1,0 +1,13 @@
+package br.com.lojaxpto.implementacao;
+
+import br.com.lojaxpto.modelo.PessoaFisica;
+
+public class TesteCliente {
+	
+	public static void main(String[] args) {
+		
+		PessoaFisica pf = new PessoaFisica();
+		
+	}
+
+}

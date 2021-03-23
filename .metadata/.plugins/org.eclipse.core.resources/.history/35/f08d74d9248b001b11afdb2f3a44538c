@@ -1,0 +1,30 @@
+package br.com.lojaxpto.implementacao;
+
+import br.com.lojaxpto.modelo.Venda;
+
+public class TesteVenda {
+	
+	public static void main(String[] args) {
+		
+		Venda venda = new Venda (
+				
+				);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

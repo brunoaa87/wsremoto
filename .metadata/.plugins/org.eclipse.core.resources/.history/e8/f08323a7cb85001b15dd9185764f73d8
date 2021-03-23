@@ -1,0 +1,51 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TesteTipos {
+
+	/*
+	 * Dados a serem capturados:
+	 * - Nome do Produto (notebooks)
+	 * - Qtde
+	 * - Imposto (10%, 5,8%)
+	 * - Valor Unitário
+	 * No final deverá exibir
+	 * - o valor acrescido com o imposto
+	 * - o valor do imposto isolado
+	 * - o total com imposto
+	 * - o total sem imposto
+	 */
+	
+	public static void main(String[] args) {
+	
+		String notebook = JOptionPane.showInputDialog("Digite o nome do notebook.");
+		short quantidade = Short.parseShort(JOptionPane.showInputDialog("Digite a quantidade de notebooks."));
+		float imposto = Float.parseFloat(JOptionPane.showInputDialog("Digite valor do Imposto"));
+		float preco = Float.parseFloat(JOptionPane.showInputDialog("Digite valor do notebook."));
+		
+		double precocomimposto = preco + imposto;
+		float totalcomimposto = preco * quantidade + imposto;
+		float totalsemimposto = preco * quantidade;
+		
+		System.out.printf("o valor acrescido com o imposto foi de: R$ %.2f", preco, imposto);
+		System.out.printf("o valor do imposto isolado é de: %.2f", imposto);
+		System.out.printf("o total com imposto é de: R$ %.2f", preco, quantidade, imposto);
+		System.out.printf("o total sem imposto é de: R$ %.2f", preco, quantidade);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

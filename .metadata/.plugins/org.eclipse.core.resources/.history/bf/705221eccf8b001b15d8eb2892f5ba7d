@@ -1,0 +1,23 @@
+package br.com.bankofoz.implementacao;
+
+import br.com.bankofoz.beans.Cliente;
+
+public class TesteConta {
+	
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

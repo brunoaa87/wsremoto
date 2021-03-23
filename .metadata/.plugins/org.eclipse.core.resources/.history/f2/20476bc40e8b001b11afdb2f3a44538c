@@ -1,0 +1,41 @@
+package br.com.gama.implementacao;
+
+import br.com.gama.modelo.Aluno;
+import br.com.gama.modelo.Curso;
+import br.com.gama.modelo.Professor;
+import br.com.gama.modelo.Turma;
+
+public class TesteTurma2 {
+	
+	public static void main(String[] args) {
+		Turma turma = new Turma(
+				"jv01",
+				"vespertino",
+				new Curso(
+						"JV",
+						"JAVA GAMA",
+						true,
+						10000,
+						(byte) 6
+						),
+				new Aluno(),
+				new Professor()
+				);
+		
+		System.out.println(turma.toString());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

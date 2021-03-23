@@ -1,0 +1,18 @@
+package br.com.lojaxpto.modelo;
+
+public class PessoaJuridica extends Cliente{
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

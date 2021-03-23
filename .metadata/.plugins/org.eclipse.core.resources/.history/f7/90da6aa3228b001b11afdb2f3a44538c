@@ -1,0 +1,23 @@
+package br.com.lojaxpto.modelo;
+
+public class Fabricante {
+	
+	private String cnpj;
+	private String razaoSocial;
+	private String telefone;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,41 @@
+package br.com.lojaxpto.implementacao;
+
+import br.com.lojaxpto.modelo.Cliente;
+import br.com.lojaxpto.modelo.Produto;
+import br.com.lojaxpto.modelo.Venda;
+
+public class TesteVenda {
+	
+	public static void main(String[] args) {
+		
+		Venda venda = new Venda (
+				123,
+				1000,
+				new Cliente(),
+				new Produto()
+				);
+		
+		System.out.println(venda.toString());
+		System.out.println("Resumo: " + venda.getResumo());
+		System.out.println("Total Estoque Venda: " + venda.getProduto().totalEstoqueVenda());
+		System.out.println("Total Estoque Compra: " + venda.getProduto().totalEstoqueCompra());
+		System.out.println(venda.toString());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

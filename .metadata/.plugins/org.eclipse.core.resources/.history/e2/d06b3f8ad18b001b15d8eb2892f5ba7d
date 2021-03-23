@@ -1,0 +1,34 @@
+package br.com.bankofoz.implementacao;
+
+import br.com.bankofoz.beans.Cliente;
+import br.com.bankofoz.beans.Conta;
+import br.com.bankofoz.util.Magica;
+
+public class TesteConta {
+	
+	public static void main(String[] args) {
+		
+		Cliente cliente = new Cliente(
+				Magica.i("ID"),
+				Magica.s("Nome"),
+				Magica.s("CPF"),
+				Magica.s("Fone")
+				);
+		
+		Conta conta = new Conta();
+		if (Magica.b("Abrir conta corrente?")==true) {
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package br.com.bankofoz.beans;
+
+public class Corrente extends Conta{
+	
+	private float limite;
+	private float taxa;
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

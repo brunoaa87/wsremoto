@@ -1,0 +1,19 @@
+package br.com.bankofoz.beans;
+
+public class Cliente {
+	
+	private int id;
+	private String nome;
+	private String cpf;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
