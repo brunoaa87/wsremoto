@@ -35,10 +35,12 @@ public class Exercicio2Repeticao {
 				idadeMaisJovem = idade;
 				nomeMaisJovem = nome;
 			}
+			
 			if (idade>idadeMaisExperiente) {
 				idadeMaisExperiente = idade;
 				nomeMaisExperiente = nome;
 			}
+			
 			qtdePessoas+=1;
 			totalIdades+=idade;
 			if (idade>18) {

@@ -1,5 +1,16 @@
 package br.com.bankofoz.beans;
 
+/*
+ * Polimorfismo:quando o elemento possui um mesmo nome e diversas forma
+ * Método:
+ * - Overload(sobrecarga): dois metodos com o mesmo nome na mesma classe
+ * - Override(sobrescrita): dois métodos com o mesmo nome, um na classe pai e outro na classe filha.
+ * 
+ * Objeto:
+ * Crio pelo pai  e instancio pelo filho
+ * 
+ */
+
 public class Conta {
 	
 	private short numero;
