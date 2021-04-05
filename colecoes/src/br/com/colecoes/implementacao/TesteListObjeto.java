@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.colecoes.beans.Cargo;
+import br.com.colecoes.beans.CargoReduzido;
 
 public class TesteListObjeto {
 
@@ -17,7 +18,7 @@ public class TesteListObjeto {
 		lista.add(new Cargo("DBA","SR",15500));
 		lista.add(new Cargo("ANALISTA","JR",5500));
 		
-		System.out.println("Lista original: " + lista); 
+		System.out.println("Lista Original: " + lista);
 		
 		float total=0;
 		int qtdeJr=0;
@@ -31,28 +32,24 @@ public class TesteListObjeto {
 			if (lista.get(contador).getNivel().toUpperCase().equals("JR")) {
 				qtdeJr++;
 				resultado.add(new CargoReduzido
-						(lista.get(contador).getNome())
-						)
+						(lista.get(contador).getNome(), 
+						lista.get(contador).getNivel()));
 			}
-			
 		}
 		System.out.println("Total: " + total);
 		System.out.println("Média: " + (total/lista.size()));
-		System.out.println("Qtde Jrs: " + qtdeJr);
-		
+		System.out.println("Qtde Jrs: " + qtdeJr);	
+		System.out.println(resultado);
 		/*
-		 *  - Exibir o total de todos os salarios
-		 *  - Exibir a média
-		 *  - Exibir quantos cargos nível JR existem
+		 * - Exibir o total de todos os salarios
+		 * - Exibir a média
+		 * - Exibir quantos cargos nível JR existem
 		 */
 		
 		
-			
 		
 		
-		
-		
-		
+
 	}
 
 }

@@ -105,21 +105,27 @@ public class Produto {
 
 
 
-	public Produto(int id, String descricao, float valorVenda, float valorCompra, int qtde) {
+
+	
+	
+	
+	public Produto(int id, String descricao, Fabricante fabricante, float valorVenda, float valorCompra, int qtde) {
 		super();
 		this.id = id;
 		this.descricao = descricao;
+		this.fabricante = fabricante;
 		this.valorVenda = valorVenda;
 		this.valorCompra = valorCompra;
 		this.qtde = qtde;
 	}
 	
+	
 	public Produto() {
 		super();
 	}
-	
-	
-	
+
+
+
 	@Override
 	public String toString() {
 		return "Produto [id=" + id + ", descricao=" + descricao + ", valorVenda=" + valorVenda + ", valorCompra="
